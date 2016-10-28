@@ -48,7 +48,7 @@ parent loop. The scan wouldn't change it.
 
 	end
 
-	substrings_hash.to_s
+	substrings_hash
 
 
 
