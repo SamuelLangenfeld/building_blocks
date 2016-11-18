@@ -25,6 +25,13 @@ I want to keep it for the future, if nothing else than to remember that gets onl
 
 
 	shifted_string=""
+	while number>26
+		number-=26
+	end
+
+	while number < 0
+		number+=26
+	end
 	
 #This is a loop that looks at each character before comparing them to the lowercase alphabet array
 #If it finds a match, it will add on to the new shifted message. If it doesn't find the match there
